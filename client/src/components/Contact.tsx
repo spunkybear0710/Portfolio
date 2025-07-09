@@ -71,13 +71,10 @@ const Contact = () => {
                   href="mailto:tanujgautam12@gmail.com" 
                   className="text-gray-300 hover:text-primary transition-colors"
                 >
-                  tanujgautam12@gmail.com
+                  spunkybear0710@gmail.com
                 </a>
               </div>
-              <div className="flex items-center">
-                <Phone className="text-primary text-xl mr-4" />
-                <span className="text-gray-300">+91 7763859191</span>
-              </div>
+            
               <div className="flex items-center">
                 <MapPin className="text-primary text-xl mr-4" />
                 <span className="text-gray-300">Jabalpur, Madhya Pradesh</span>
@@ -86,7 +83,7 @@ const Contact = () => {
             
             <div className="flex space-x-6 mt-8">
               <a 
-                href="https://linkedin.com/in/tanuj-kumar" 
+                href="https://www.linkedin.com/in/tanuj-kumar-0710m2004" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center text-primary hover:bg-primary/30 transition-all duration-300"
@@ -94,7 +91,7 @@ const Contact = () => {
                 <Linkedin className="text-xl" />
               </a>
               <a 
-                href="https://github.com/tanuj-kumar" 
+                href="https://github.com/spunkybear0710" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center text-primary hover:bg-primary/30 transition-all duration-300"

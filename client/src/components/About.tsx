@@ -19,8 +19,8 @@ const About = () => {
           <div className="glass-card p-8 fade-in">
             <h3 className="text-2xl font-bold mb-4 text-primary">Career Summary</h3>
             <p className="text-gray-300 leading-relaxed mb-6">
-              Motivated and detail-oriented second-year Computer Science student with a strong 
-              foundation in Java programming and API web development. Proficient in building RESTful APIs 
+              Motivated and detail-oriented  Computer Science student with a strong 
+              foundation in Java programming and API web development along with DevOps. Proficient in building RESTful APIs 
               and developing web applications using Java frameworks such as Spring Boot.
             </p>
             <p className="text-gray-300 leading-relaxed">

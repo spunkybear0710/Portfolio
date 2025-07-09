@@ -58,7 +58,7 @@ const Hero = () => {
         
         <div className="flex justify-center space-x-6">
           <a 
-            href="https://linkedin.com/in/tanuj-kumar" 
+            href="https://www.linkedin.com/in/tanuj-kumar-0710m2004" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-2xl text-gray-400 hover:text-primary transition-colors duration-300"
@@ -66,7 +66,7 @@ const Hero = () => {
             <Linkedin />
           </a>
           <a 
-            href="https://github.com/tanuj-kumar" 
+            href="https://github.com/spunkybear0710" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-2xl text-gray-400 hover:text-primary transition-colors duration-300"
