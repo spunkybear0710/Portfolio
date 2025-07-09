@@ -33,7 +33,7 @@ app.use((req, res, next) => {
     }
   });
 
-  next(); // <-- this should be here
+  next();
 });
 
 (async () => {
@@ -47,21 +47,16 @@ app.use((req, res, next) => {
     throw err;
   });
 
-  // Setup Vite in development mode, serve static files in production
   if (app.get("env") === "development") {
     await setupVite(app, server);
   } else {
     serveStatic(app);
   }
 
-  const port = 5000;
-  server.listen(
-    {
-      port,
-      host: "127.0.0.1", // changed from 0.0.0.0 to avoid ENOTSUP on Windows
-    },
-    () => {
-      log(`serving on http://127.0.0.1:${port}`);
-    }
-  );
+  const port = process.env.PORT || 5000;
+  const host = "0.0.0.0"; // <-- FIXED for production cloud deploy
+
+  server.listen({ port, host }, () => {
+    log(`serving on http://${host}:${port}`);
+  });
 })();
