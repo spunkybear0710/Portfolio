@@ -51,7 +51,7 @@ const About = () => {
               </div>
               <div className="flex items-center">
                 <Medal className="text-primary mr-3" size={20} />
-                <span>SIH 2024 Finalist</span>
+                <span>SIH 2024 Participant</span>
               </div>
             </div>
           </div>
